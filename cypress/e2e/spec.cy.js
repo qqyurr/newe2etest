@@ -1,6 +1,6 @@
 describe('first test', { testIsolation: false }, () => {
   it('Render', () => {
-    cy.visit('/');
+    cy.visit('localhost:3000');
   });
 
   it ('entered to do 1', () => {
