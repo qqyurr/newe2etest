@@ -1,3 +1,4 @@
+import React from 'react'
 import logo from './logo.svg';
 import './App.css';
 
@@ -10,12 +11,13 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
+          data-cy="test-link"
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React 2
         </a>
       </header>
     </div>
